@@ -1,0 +1,12 @@
+{
+  "name": "casacriativa",
+  "version": "1.0.0",
+  "description": "It shows ideas to be done during the quarantine.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "Wesley Bernardes",
+  "license": "MIT"
+}
