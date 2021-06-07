@@ -35,10 +35,10 @@ button:hover {
 .idea {
     display: flex;
     margin-bottom: 32px;
-    background-color: var(--ideaBackgroundColor);
+    background-color: var(--white);
     padding: 32px;
     border-radius: 8px;
-    box-shadow: var(--ideaShadowColor) 0 4px 16px -8px ;
+    box-shadow: var(--dark-gray-2) 0 4px 16px -8px ;
 }
 
 .idea img {
@@ -53,7 +53,7 @@ button:hover {
 
 .idea p {
     margin: 8px 0;
-    color: var(--ideaPColor);
+    color: var(--light-gray-2);
 }
 
 .idea .description {

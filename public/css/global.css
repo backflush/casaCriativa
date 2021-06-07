@@ -1,18 +1,18 @@
 :root {
-    --textColor: #25282b;
-    --backgroundColor: #e5e4e5;
+    --dark-gray-1: #25282b;
+    --dark-gray-2: #0101011a;
+    --dark-gray-3: #25282b56;
+    --dark-gray-3-hover: #25282b88;
+
     --buttonColor: #ff5e84;
-    --buttonTextColor: #ffffff;
     --buttonShadowColor: #ff5e8432;
     --buttonColorHover: #fc3c69;
     --linkColor: #ff5e84;
-    --ideaBackgroundColor: #ffffff;
-    --ideaPColor: #777777;
-    --ideaShadowColor: rgba(1, 1, 1, 0.1);
-    --formButtonBackgroundColor: #ffffff;
-    --formBorderColor: #a5a5a5d4;
-    --backModalButtonColor: #25282b56;
-    --backModalButtonColorHover: #25282b88;
+    
+    --light-gray-1: #a5a5a5d4;
+    --light-gray-2: #777777;
+    --light-gray-3: #e5e4e5;
+    --white: #ffffff;
 }
 
 * {
@@ -23,8 +23,8 @@
 }
 
 body {
-    background-color: var(--backgroundColor);
-    color: var(--textColor);
+    background-color: var(--light-gray-3);
+    color: var(--dark-gray-1);
 }
 
 body.hideScroll {
@@ -56,7 +56,7 @@ form input, form textarea {
     width: 100%;
     padding: 12px;
     border-radius: 8px;
-    border: var(--formBorderColor) 1px solid;
+    border: var(--light-gray-1) 1px solid;
     outline: none;
     font-size: 16px;
 }
@@ -73,7 +73,7 @@ footer {
     line-height: 18px;
     letter-spacing: 0.2;
     font-weight: regular;
-    color: var(--ideaPColor);
+    color: var(--light-gray-2);
 }
 
 footer a {
@@ -82,7 +82,7 @@ footer a {
 
 .CTA {
     background: var(--buttonColor);
-    color: var(--buttonTextColor);
+    color: var(--white);
     width: 150px;
     height: 40px;
     border-radius: 8px;
@@ -108,7 +108,7 @@ footer a {
 }
 
 #modal {
-    background-color: var(--backgroundColor);
+    background-color: var(--light-gray-3);
     position: fixed;
     top: 0;
     bottom: 0;
@@ -126,7 +126,7 @@ footer a {
 
 #modal .content {
     margin-top: 20%;
-    color: var(--textColor);
+    color: var(--dark-gray-1);
 }
 
 #modal .content h1 {
@@ -151,6 +151,8 @@ footer a {
     margin: 16px 0;
     grid-column: 2;
     justify-self: end;
+    background-color: var(--dark-gray-3);
+    color: var(--white);
     align-self: end;
 }
 
@@ -160,8 +162,6 @@ footer a {
 }
 
 #modal a {
-    background-color: var(--backModalButtonColor);
-    color: var(--buttonTextColor);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -172,10 +172,10 @@ footer a {
     font-size: 14px;
     text-decoration: none;
     margin: 16px 0;
-    box-shadow: var(--formBorderColor) 0 8px 16px -8px;
+    box-shadow: var(--light-gray-1) 0 8px 16px -8px;
     transition: ease 280ms;
 }
 
 #modal a:hover {
-    background-color: var(--backModalButtonColorHover);
+    background-color: var(--dark-gray-3-hover);
 }
