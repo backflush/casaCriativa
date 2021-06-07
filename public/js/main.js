@@ -1,11 +1,11 @@
-// add/hideScroll n display/hideModal
-function onOff(){
-    document.querySelector("#modal").classList.toggle("hide");
-    document.querySelector("body").classList.toggle("hideScroll");
-    document.querySelector("#modal").classList.toggle("addScroll");
+const Modal = {
+    onOff() {
+        document.querySelector("#modal").classList.toggle("hide");
+        document.querySelector("body").classList.toggle("hideScroll");
+        document.querySelector("#modal").classList.toggle("addScroll");
+    }
 }
 
-// Validating empty form
 function checkFields(event){
     const valuesToCheck = [
         "title",
