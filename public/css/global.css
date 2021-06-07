@@ -73,7 +73,7 @@ footer {
     letter-spacing: 0.2;
     font-weight: regular;
     color: var(--light-gray-2);
-    margin: 1.5rem;
+    margin: 2.5rem 0;
 }
 
 footer a {
