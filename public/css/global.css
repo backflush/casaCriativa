@@ -1,0 +1,78 @@
+:root{
+    --textColor: #25282b;
+    --backgroundColor: #e5e4e5;
+    --buttonColor: #ff5e84;
+    --buttonTextColor: #ffffff;
+    --buttonShadowColor: #ff5e8432;
+    --buttonColorHover: #fc3c69;
+    --linkColor: #ff5e84;
+    --ideaBackgroundColor: #ffffff;
+    --ideaPColor: #777777;
+    --ideaShadowColor: rgba(1, 1, 1, 0.1);
+    --formButtonBackgroundColor: #ffffff;
+    --formBorderColor: #a5a5a5d4;
+    --backModalButtonColor: #25282b56;
+    --backModalButtonColorHover: #25282b88;
+}
+
+/* Buttons and inputs werent accepting the font */
+*{
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+body.hideScroll{
+    overflow: hidden;
+}
+
+#container{
+    width: 80%;
+    max-width: 980px;
+    margin: 40px auto;
+}
+
+button{
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2;
+}
+
+a{
+    color:var(--linkColor);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.CTA{
+    background: var(--buttonColor);
+    color: var(--buttonTextColor);
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    box-shadow: var(--buttonShadowColor) 0 8px 16px;
+    transition: ease 280ms;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CTA:hover{
+    text-decoration: none;
+    background-color: var(--buttonColorHover);
+}

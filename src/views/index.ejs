@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="../../css/index.css">
+    <link rel="stylesheet" href="../../css/global.css">
+    <!-- Font Link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Page Name/Fav Icon -->
+    <title>Casa Criativa | Home</title>
+    <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/128/3010/3010995.png" type="image/x-icon">
+</head>
+<body>
+    <section id="container" class="pageHome">
+        <section id="intro"> 
+            <header>
+                <a href="/"><img src="../../assets/27pdZLL.png" alt="Logomarca"/></a>
+            </header>
+            <main>
+                <p>Ficar em casa em períodos longos, não deve ser nada fácil.</p>
+                <p>Iremos catalogar <strong>ideias, brincadeiras, jogos, filmes, livros, cursos, dicas</strong> e tudo que for necessário para tornar esse momento mais interessante.</p>
+                <p>Comece clicando em ver ideias para ver as  ideias cadastradas e contribua adicioando a sua ideia.</p>
+            </main>
+            <section id="buttons">
+                <button type="submit" onclick="onOff()" tabindex="1">+ Adicionar Ideia</button>
+                <a href="/ideas" class="CTA" tabindex="0">Ver ideias</a>
+            </section>
+            <footer>
+                Com ♥️ <a href="http://rocketseat.com.br" target="_blank">Rocketseat</a>
+            </footer>
+        </section>
+
+        <section id="lastIdeas">
+        </section>
+    </section>
+
+    <div id="modal" class="hide">
+        <div class="content">
+            <h1>Nova Ideia</h1>
+            <form action="/" method="POST" onSubmit="return checkFields(event)">
+                <div class="input-wrapper">
+                    <label for="title">Título da Ideia</label>
+                    <input type="text" name="title"/>
+                </div>
+                <div class="input-wrapper">
+                    <label for="category">Categoria</label>
+                    <input type="text" name="category"/>
+                </div>
+                <div class="input-wrapper">
+                    <label for="image">Link da Imagem</label>
+                    <input type="url" name="image"/>
+                </div>
+                <div class="input-wrapper">
+                    <label for="description">Digite uma descrição para essa ideia</label>
+                    <textarea name="description" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input-wrapper">
+                    <label for="link">Link da Ideia</label>
+                    <input type="url" name="link"/>
+                </div>
+                <a href="#" onclick="onOff()">Voltar</a>
+                <button type="submit" class="CTA">Salvar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="../../js/main.js"></script>
+</body>
+</html>
