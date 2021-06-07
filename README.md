@@ -1,5 +1,5 @@
-# JobsCalc
-![Preview-Screen](./public/images/casaCriativaCover.jpeg)
+# Casa Criativa
+![Preview-Screen](./public/images/casaCriativaCover.png)
 
 If you want to take a look on all screens of the application, they are [here]().
 
@@ -15,7 +15,7 @@ This project is part of my personal portfolio, it was developed during one of ma
 
 Reach me at: bwesleysouza@gmail.com
 
-Connect with me at [LinkedIn](https://www.linkedin.com/in/).
+Connect with me at [LinkedIn](https://www.linkedin.com/in/bwesleysouza).
 
 And you can use this project as you wish!
 
@@ -96,7 +96,7 @@ Reach me at: bwesleysouza@gmail.com
 
 _or_
 
-Try it: [LinkedIn](https://www.linkedin.com/in/)
+Try it: [LinkedIn](https://www.linkedin.com/in/bwesleysouza)
 
 Thank you!
 
