@@ -4,7 +4,8 @@
   "description": "It shows ideas to be done during the quarantine.",
   "main": "src/app.js",
   "scripts": {
-    "start": "nodemon src/app.js"
+    "start": "nodemon src/app.js",
+    "db-init": "node src/database/config"
   },
   "keywords": [],
   "author": "Wesley Bernardes",
