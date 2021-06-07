@@ -33,6 +33,19 @@
 
         <main>
             <section id="ideas">
+                <% ideas.forEach(idea => { %>
+                    <div class="idea">
+                        <img src="<%= idea.image %>" alt="Imagem de Curso de Programação"/>
+                        <div class="content">
+                            <h3><%= idea.title %></h3>
+                            <p><%= idea.category %></p>
+                            <div class="description">
+                                <%= idea.description %>
+                            </div>
+                            <a href="<%= idea.link %>" target="_blank">Ir para a ideia</a>
+                        </div>
+                    </div>
+                <% }); %>
             </section>
         </main>
 
