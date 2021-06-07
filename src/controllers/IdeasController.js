@@ -1,5 +1,5 @@
 module.exports = {
     index(req, res) {
-        res.send("fuck it");
+        res.render("ideas");
     }
 }
