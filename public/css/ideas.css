@@ -14,14 +14,14 @@ header nav ul {
 
 li {
     list-style: none;
-    margin-right: 16px;
-    font-size: 14px;
-    line-height: 18px;
+    margin-right: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
     letter-spacing: 0.2;
 }
 
 li a {
-    color: var(--textColor);
+    color: var(--dark-gray-1);
     outline: none;
 }
 
@@ -30,13 +30,13 @@ li:last-child {
 }
 
 li:last-child a {
-    color: var(--buttonTextColor);
+    color: var(--white);
     text-decoration: none;
 }
 
 #title {
     text-align: center;
-    margin: 64px 0;
+    margin: 4rem 0;
 }
 
 #title p {
@@ -46,44 +46,11 @@ li:last-child a {
 
 #title h1 {
     margin: 0;
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 
 #ideas {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
-}
-
-.idea {
-    display: flex;
-    background-color: var(--white);
-    padding: 32px;
-    border-radius: 8px;
-    box-shadow: var(--dark-gray-2) 0 4px 16px -8px ;
-}
-
-.idea img {
-    width: 60px;
-    height: 60px;
-    margin-right: 32px;
-}
-
-.idea h3 {
-    margin: 0;
-}
-
-.idea p {
-    margin: 8px 0;
-    color: var(--light-gray-2);
-}
-
-.idea .description {
-    margin: 16px 0;
-}
-
-p, .description {
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.1;
+    gap: 1.25rem;
 }

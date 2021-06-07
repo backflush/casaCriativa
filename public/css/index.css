@@ -1,7 +1,7 @@
 #container {
     width: 80%;
     max-width: 980px;
-    margin: 4rem auto;
+    margin: 2.5rem auto;
 }
 
 .pageHome {
@@ -10,7 +10,7 @@
 
 #intro  {
     width: 300px;
-    margin-right: 64px;
+    margin-right: 4rem;
 }
 
 main {
@@ -19,7 +19,7 @@ main {
 
 #buttons {
     display: flex;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
     justify-content: space-evenly;
 }
 
@@ -30,38 +30,4 @@ button {
 
 button:hover {
     text-decoration: underline;
-}
-
-.idea {
-    display: flex;
-    margin-bottom: 32px;
-    background-color: var(--white);
-    padding: 32px;
-    border-radius: 8px;
-    box-shadow: var(--dark-gray-2) 0 4px 16px -8px ;
-}
-
-.idea img {
-    width: 60px;
-    height: 60px;
-    margin-right: 32px;
-}
-
-.idea h3 {
-    margin: 0;
-}
-
-.idea p {
-    margin: 8px 0;
-    color: var(--light-gray-2);
-}
-
-.idea .description {
-    margin: 16px 0;
-}
-
-p, .description {
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.1;
 }

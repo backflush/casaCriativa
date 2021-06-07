@@ -31,14 +31,13 @@ body.hideScroll {
     overflow: hidden;
 }
 
-
 button {
     border: none;
     font-weight: bold;
     cursor: pointer;
     outline: none;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
     letter-spacing: 0.2;
 }
 
@@ -54,23 +53,23 @@ a:hover {
 
 form input, form textarea {
     width: 100%;
-    padding: 12px;
-    border-radius: 8px;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
     border: var(--light-gray-1) 1px solid;
     outline: none;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 form label {
     font-weight: 600;
-    line-height: 32px;
+    line-height: 2rem;
     letter-spacing: 0.8px;
 }
 
 footer {
     text-align: center;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
     letter-spacing: 0.2;
     font-weight: regular;
     color: var(--light-gray-2);
@@ -84,12 +83,12 @@ footer a {
     background: var(--buttonColor);
     color: var(--white);
     width: 150px;
-    height: 40px;
-    border-radius: 8px;
-    box-shadow: var(--buttonShadowColor) 0 8px 16px;
+    height: 2.5rem;
+    border-radius: .5rem;
+    box-shadow: var(--buttonShadowColor) 0 .5rem 1rem;
     transition: ease 280ms;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
     letter-spacing: 0.2;
     display: flex;
     justify-content: center;
@@ -104,7 +103,7 @@ footer a {
 #container {
     width: 80%;
     max-width: 980px;
-    margin: 40px auto;
+    margin: 2.5rem auto;
 }
 
 #modal {
@@ -140,7 +139,7 @@ footer a {
     margin: 0 auto 10%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 #modal form div:nth-child(3), #modal form div:nth-child(4), #modal form div:nth-child(5) {
@@ -148,7 +147,7 @@ footer a {
 }
 
 #modal .CTA {
-    margin: 16px 0;
+    margin: 1rem 0;
     grid-column: 2;
     justify-self: end;
     background-color: var(--dark-gray-3);
@@ -166,16 +165,49 @@ footer a {
     align-items: center;
     justify-content: center;
     width: 150px;
-    height: 40px;
-    border-radius: 8px;
+    height: 2.5rem;
+    border-radius: .5rem;
     align-self: end;
-    font-size: 14px;
+    font-size: 0.875rem;
     text-decoration: none;
-    margin: 16px 0;
-    box-shadow: var(--light-gray-1) 0 8px 16px -8px;
+    margin: 1rem 0;
+    box-shadow: var(--light-gray-1) 0 .5rem 1rem -.5rem;
     transition: ease 280ms;
 }
 
 #modal a:hover {
     background-color: var(--dark-gray-3-hover);
+}
+
+.idea {
+    display: flex;
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: var(--dark-gray-2) 0 .25rem 1rem -.5rem;
+}
+
+.idea img {
+    width: 60px;
+    height: 60px;
+    margin-right: 2rem;
+}
+
+.idea h3 {
+    margin: 0;
+}
+
+.idea p {
+    margin: 8px 0;
+    color: var(--light-gray-2);
+}
+
+.idea .description {
+    margin: 1rem 0;
+}
+
+p, .description {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.1;
 }
