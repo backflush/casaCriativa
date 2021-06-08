@@ -15,7 +15,7 @@
     --white: #ffffff;
 }
 
-* {
+*, *:before, *:after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -78,6 +78,11 @@ footer {
 
 footer a {
     opacity: 0.7;
+}
+
+.menu-btn, .exit-btn {
+    opacity: 0;
+    visibility: hidden;
 }
 
 .CTA {
