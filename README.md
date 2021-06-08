@@ -90,7 +90,7 @@ The project will be locate at the port **localhost:3000**
 
 ## Contribuing
 
-It was developed by me during one many Rocketseat's Discover Plataform projects, my tutors were [Mayk Brito](https://github.com/maykbrito). I'll be glad to receive any feedback about something that a I need to redo. And if you have any question....
+It was developed by me during one many Rocketseat's Discover Plataform projects, my tutor was [Mayk Brito](https://github.com/maykbrito). I'll be glad to receive any feedback about something that a I need to redo. And if you have any question....
 
 Reach me at: bwesleysouza@gmail.com
 
