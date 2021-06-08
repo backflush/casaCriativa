@@ -1,0 +1,39 @@
+@media(max-width:800px) {
+    :root {
+        font-size: 75%;
+    }
+
+    header img {
+        text-align: center;
+        margin: 0 auto !important;
+        width: 220px;
+    }
+
+    .CTA {
+        width: 120px !important;
+    }
+
+    #container {
+        max-width: 800px !important;
+        width: 80%;
+    }
+
+    .pageHome {
+        display: block !important;
+    }
+
+    #intro {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .idea {
+        display: block !important;
+        text-align: center;
+    }
+
+    .idea img {
+        margin-right: 0 !important;
+        margin-bottom: .5rem;
+    }
+}
