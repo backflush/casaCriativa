@@ -55,52 +55,17 @@ li:last-child a {
     gap: 1.25rem;
 }
 
-@media(max-width:800px) {
-    :root {
-        font-size: 75%;
-    }
-
-    #container {
-        max-width: 800px;
-        width: 80%;
-    }
-
-    .CTA {
-        width: 120px !important;
-    }
-
-    .pageHome {
-        display: block !important;
-    }
-
-    #intro {
-        width: 100% !important;
-        text-align: center;
-    }
-
-    #ideas {
-        display: block;
-    }
-    
-    .idea {
-        display: block !important;
-        margin-bottom: 1.5rem;
-        text-align: center;
-    }
-
-    .idea img {
-        margin-right: 0 !important;
-        margin-bottom: .5rem;
-    }
-}
-
 @media(max-width: 500px) {
+    :root {
+        font-size: 62.25%;
+    }
+
     #title {
         text-align: center;
     }
 
     header a img {
-        width: 180px;
+        width: 150px;
     }
 
     nav ul {
@@ -108,7 +73,7 @@ li:last-child a {
     }
 
     .menu-btn {
-        width: 2.5em;
+        width: 2em;
         cursor: pointer;
         visibility: inherit;
         opacity: .785;   

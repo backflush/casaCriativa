@@ -27,9 +27,14 @@
         text-align: center;
     }
 
+    #ideas {
+        display: block;
+    }
+
     .idea {
         display: block !important;
         text-align: center;
+        margin-bottom: 2rem;
     }
 
     .idea img {
