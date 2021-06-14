@@ -6,7 +6,7 @@ const Modal = {
     }
 }
 
-function checkFields(event){
+function checkFields(event) {
     const valuesToCheck = [
         "title",
         "image",
