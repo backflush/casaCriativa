@@ -21,7 +21,7 @@ And you can use this project as you wish!
 
 ## Some Observations about this App
 
-1 - There isn't a functionality of Login/Register, but you can turn it yours just going in "Ver perfil" and filling the inputs.
+1 - There isn't a functionality of Login/Register.
 
 ## Functionalities
 
@@ -90,7 +90,7 @@ The project will be locate at the port **localhost:3000**
 
 ## Contribuing
 
-It was developed by me during one many Rocketseat's Discover Plataform projects, my tutor was [Mayk Brito](https://github.com/maykbrito). I'll be glad to receive any feedback about something that a I need to redo. And if you have any question....
+It was developed by me during one many Rocketseat's Discover Plataform projects, my tutor was [Mayk Brito](https://github.com/maykbrito). I tried to evolve the project, changed the framework used to display JavaScript in HTML, it was using [Nunjucks](https://mozilla.github.io/nunjucks/) and now it's using [EJS](https://ejs.co/) and changed the architectural pattern that didn't exist to MVC. I'll be glad to receive any feedback about something that a I need to redo. And if you have any question....
 
 Reach me at: bwesleysouza@gmail.com
 
